@@ -3,7 +3,7 @@ import Welcome from "./components/intro";
 import Navbar from "./components/navbar";
 import Project from "./components/project";
 import Contact from "./components/contact";
-
+import Resume from "./components/resume";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -26,6 +26,7 @@ function App() {
         web design concepts for a curriculum. They employ a variety of tools
         including Bootstrap libraries, EJS templating, React Component architecture, and
         core HTML principles.</p>
+        <Resume />
     </div>
   </section>
   <div class="album py-5 bg-light" id="projects">

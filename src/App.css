@@ -2,7 +2,7 @@ html{
   scroll-behavior: smooth;
 }
 
-#navbar{
+/* #navbar{
   position:fixed;
   top:0;
   right:0;
@@ -10,13 +10,15 @@ html{
   z-index:3;
   border-bottom: solid black thin;
   box-shadow: 0px 0px 5px black;
-}
-.nav-link{
-  padding:15px 15px;
-  margin:0px 15px 0px 15px;
+} */
+ .nav-link{
+   display:inline;
+   line-height: 1.8;
+  padding:4px;
+  margin-left:20px;
+  margin-right:20px;
  font-family: 'Ubuntu', sans-serif;
   font-size:1.2em;
-  display:block;
   text-decoration:none;
   color:#e6f6fc;
 }

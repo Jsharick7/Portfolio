@@ -39,7 +39,7 @@
   },
   {
     "title":"Newsletter API",
-    "imgStr":"https://iili.io/J0tXA7.png",
+    "imgStr":"https://i.ibb.co/5RXnMJj/newsletterthumb.png",
     "link":"https://calm-cliffs-76131.herokuapp.com/",
     "alt":"Newsletter API",
     "text":"Uses express routing calls to communicate with my Mail Chimp account."
