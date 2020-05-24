@@ -3,6 +3,20 @@
 {
   "projectArray":[
     {
+      "title":"Markdown Previewer",
+      "imgStr":"https://i.ibb.co/G9PzzdT/markdownthumb.png",
+      "link":"https://csb-8p7sw.netlify.app/",
+      "alt":"Markdown Previewer",
+      "text":"Translate Markdown into rendered HTML."
+    },
+    {
+      "title":"To-Do List App",
+      "imgStr":"https://i.ibb.co/JtYxxZ3/todolistthumb.png",
+      "link":"https://frozen-anchorage-59073.herokuapp.com/",
+      "alt":"To-Do List",
+      "text":"Synced with the MongoDB Atlas cloud to store and keep track of multiple to-do lists."
+    },
+    {
     "title" :"Weather API App",
     "imgStr":"https://i.ibb.co/Ct4fTz5/weather-Thumb.png",
     "link":"https://stormy-hamlet-34986.herokuapp.com/",
@@ -22,13 +36,6 @@
     "link":"https://csb-uoskc.netlify.app/",
     "alt":"Random Quote Machine",
     "text":"A simple React project that calls an API to fetch and display some motivation."
-  },
-  {
-    "title":"To-Do List App",
-    "imgStr":"https://iili.io/J0tjte.png",
-    "link":"https://frozen-anchorage-59073.herokuapp.com/",
-    "alt":"To-Do List",
-    "text":"Synced with the MongoDB Atlas cloud to store and keep track of multiple to-do lists."
   },
   {
     "title":"Tribute Page",
