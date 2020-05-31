@@ -38,11 +38,11 @@
     "text":"A simple React project that calls an API to fetch and display some motivation."
   },
   {
-    "title":"Tribute Page",
-    "imgStr":"https://iili.io/J0VlEl.png",
-    "link":"https://codepen.io/jsharick7/full/NWGjPxJ",
-    "alt":"Tribute Page",
-    "text":"An early project, a simple tribute page to an esteemed composer."
+    "title":"Drum Machine",
+    "imgStr":"https://i.ibb.co/QJ1WQBy/drumthumb.png",
+    "link":"https://csb-2puiv.netlify.app/",
+    "alt":"Drum Machine",
+    "text":"A drum machine, built using React. Easily customizable with additional banks."
   },
   {
     "title":"Newsletter API",
