@@ -5,7 +5,7 @@ export default Navbar;
 function Navbar(){
   return(
 
-    <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav id="nav" class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Joe Sharick</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
     data-target="#navbar" aria-controls="navbar" aria-expanded="false"
