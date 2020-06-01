@@ -20,7 +20,7 @@ export default class Bio extends React.Component{
     return(
       <div id="bio">
       <img className="profile" src="headshot.jpg" alt="Joe Sharick" />
-      <span><h2>Skills</h2></span>
+      <span><h2>Skills</h2>
           <ul id="skills">
 
             <li>HTML/XML</li>
@@ -34,8 +34,8 @@ export default class Bio extends React.Component{
             <li>MongoDB/Mongoose</li>
             <li>SQL</li>
           </ul>
+          </span>
 
-    
 
       </div>
     )

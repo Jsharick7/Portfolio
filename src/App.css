@@ -52,12 +52,24 @@ html{
   color:white;
   background-color:#404b69;
   height:165vh;
-      background-image:url("https://images.pexels.com/photos/698808/pexels-photo-698808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image:url("https://images.pexels.com/photos/698808/pexels-photo-698808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size:cover;
   background-repeat:no-repeat;
 
 }
-@media (min-width:880px){
+
+
+@media only screen and (min-device-height: 667px)
+and (min-device-width: 375px)
+
+ {
+  #welcome-section{
+    height:200vh;
+  }
+
+}
+
+@media only screen and (min-width:880px){
   #welcome-section{
     height: 180vh;
     padding-top:85px;
@@ -65,18 +77,25 @@ html{
 
 
 }
-@media (min-width:1001px){
+@media only screen and (min-width:1001px){
   #welcome-section{
     height: 116vh;
     padding-top:85px;
   }
+  .profile{
+    margin:auto;
+  }
 }
-@media (min-width:1250px){
+@media only screen and (min-width:1250px){
   #welcome-section{
-    height: 116vh;
+    height: 123vh;
     padding-top:20px;
   }
 }
+
+
+
+
 .blur{
   position:absolute;
 
@@ -106,6 +125,7 @@ h1{
 font-family: 'Source Code Pro', monospace;
 }
 
+
 #bio h2{
   position:relative;
   left:4.5em;
@@ -113,7 +133,7 @@ font-family: 'Source Code Pro', monospace;
   text-decoration:underline;
   width:0;
 }
-@media (max-width:1000px){
+@media only screen and (max-width:1000px){
   #bio h2{
     text-align: center;
   position:static;
@@ -126,6 +146,7 @@ font-family: 'Source Code Pro', monospace;
    margin-bottom:0;
   }
 }
+
 
 #skills {
   list-style-type:none;
@@ -153,14 +174,54 @@ font-family: 'Source Code Pro', monospace;
   text-shadow: .9px .7px white;
 }
 .profile{
-  width:300px;
+  width:260px;
+  height:auto;
   margin-right:30px;
   margin-left:30px;
   border:white 4px solid;
   border-radius: 100%;
   box-shadow: .5px .5px 10px 2px;
 }
+@media only screen and (max-width:768px) and (orientation: portrait){
+  #bio{
+    padding-top: 40px;
+    margin:0;
+    max-width: 84vw;
+  }
 
+
+}
+@media only screen and (max-width:1000px) and (orientation:landscape){
+  .profile{
+    width:170px;
+    height:220px;
+    margin:auto;
+    margin-left:80px;
+  }
+  #welcome-section{
+    height: 180vh;
+    padding-top:200px;
+    display:flex;
+    flex-wrap:nowrap;
+  }
+  #bio{
+    padding:10px 0px 0px 0px;
+
+  }
+  #bio h2{
+    text-align: center;
+  position:relative;
+  left:150px;
+display: inline;
+   width:0px;
+  margin:0px;
+  padding:0px;
+  }
+  #skills{
+    margin-top:20px;
+    margin-right:0px;
+  }
+}
 #welcome-section p{
 
   font-size:1.4em;
@@ -180,16 +241,19 @@ background: linear-gradient(135deg, rgba(4,16,20,1) 0%, rgba(18,35,80,1) 24%, rg
   color:white;
 
 }
-#projects p{
 
+.container{
+  margin:auto;
 }
-
 
 .project-tile{
   background: rgb(50,50,50);
 background: linear-gradient(124deg, rgba(50,50,50,1) 0%, rgba(34,34,34,0.9864320728291317) 58%, rgba(50,50,50,1) 100%);
   font-family: 'Ubuntu', sans-serif;
+  width:100%;
+
 }
+
 .card-body{
   max-width: 100%;
   padding:0px;
@@ -223,6 +287,7 @@ background: linear-gradient(124deg, rgba(50,50,50,1) 0%, rgba(34,34,34,0.9864320
   text-align:center;
   max-width: 100%;
 }
+
 .code {
   color: #363636;
   transition: color 0.3s ease-out;
@@ -293,4 +358,24 @@ padding:10px;
 }
 #footer h4{
   font-size: 17px;
+}
+@media screen and (min-width: 768px)
+and (max-width: 1024px) {
+  #welcome-section{
+    height:130vh;
+  }
+  .profile{
+
+    margin:auto;
+  }
+}
+
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px)
+and (orientation:landscape)
+ {
+  #welcome-section{
+    height:225vh;
+  }
 }
