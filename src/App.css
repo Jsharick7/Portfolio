@@ -38,14 +38,14 @@ html{
   background-image:url("./keyboard.jpg");
   background-size:cover;
   background-repeat:no-repeat;
-  padding:70px 0px;
+  padding:90px 0px;
 }
 
 #welcome-section p{
   font-size:1.4em;
   font-family: 'Source Code Pro', monospace;
   z-index:1;
-  margin-bottom:50px;
+  margin-bottom:30px;
 }
 
 
@@ -80,8 +80,8 @@ h1{
   list-style-type:none;
   display:grid;
   grid-template-columns: 1fr 1fr;
-  margin-top:20px;
-  margin-right:20px;
+  margin-top:26px;
+  margin-right:30px;
 }
 
 #skills li:nth-child(odd){
