@@ -26,33 +26,29 @@ html{
     background-color:#24272b;
 }
 
-
-
 #welcome-section{
-  padding-top:177px;
-  padding-bottom:100px;
+
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
   color:white;
   background-color:#404b69;
-  height:165vh;
-  background-image:url("https://images.pexels.com/photos/698808/pexels-photo-698808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height:auto;
+  background-image:url("./keyboard.jpg");
   background-size:cover;
   background-repeat:no-repeat;
-
+  padding:70px 0px;
 }
 
-.blur{
-  position:absolute;
-  background: rgba(0, 0, 30, 0.6);
-  backdrop-filter: blur(8px);
-  height: inherit;
-  top:3px;
-  width: 100%;
-
+#welcome-section p{
+  font-size:1.4em;
+  font-family: 'Source Code Pro', monospace;
+  z-index:1;
+  margin-bottom:50px;
 }
+
+
 h1{
   font-size:3em;
   font-family: 'Ubuntu', sans-serif;
@@ -60,31 +56,32 @@ h1{
 
 }
 #bio{
+  padding:20px;
   border:3px solid white;
-  padding:30px 70px;
   box-shadow: 1px 1px 2px 3px gray;
-  border-radius:30px;
+  border-radius:40px;
   z-index:1;
   justify-content: center;
   display: flex;
   flex-wrap:wrap;
-font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace;
 }
 
 #bio h2{
   position:relative;
-  left:4.5em;
+  display: block;
   text-shadow: 1px 2px gray;
   text-decoration:underline;
-  width:0;
+  text-align: center;
+  padding-top:20px;
 }
 
 #skills {
   list-style-type:none;
   display:grid;
   grid-template-columns: 1fr 1fr;
-  margin-top:75px;
-  margin-right:45px;
+  margin-top:20px;
+  margin-right:20px;
 }
 
 #skills li:nth-child(odd){
@@ -105,46 +102,14 @@ font-family: 'Source Code Pro', monospace;
   text-shadow: .9px .7px white;
 }
 .profile{
-  width:260px;
+  width:auto;
   height:auto;
-  margin-right:30px;
-  margin-left:30px;
+  margin:auto;
   border:white 4px solid;
   border-radius: 100%;
   box-shadow: .5px .5px 10px 2px;
 }
 
-  #welcome-section{
-    height: 180vh;
-    padding-top:200px;
-    display:flex;
-    flex-wrap:nowrap;
-  }
-  #bio{
-    padding:10px 0px 0px 0px;
-
-  }
-  #bio h2{
-    text-align: center;
-  position:relative;
-  left:150px;
-display: inline;
-   width:0px;
-  margin:0px;
-  padding:0px;
-  }
-  #skills{
-    margin-top:20px;
-    margin-right:0px;
-  }
-
-#welcome-section p{
-
-  font-size:1.4em;
-  font-family: 'Source Code Pro', monospace;
-  z-index:1;
-  margin-bottom:50px;
-}
 
 .jumbotron{
   margin:0;
@@ -215,7 +180,11 @@ background: linear-gradient(124deg, rgba(50,50,50,1) 0%, rgba(34,34,34,0.9864320
   padding-left:0px;
   word-wrap: break-word;
 }
-
+@media (max-width:575px){
+  .project-tile img{
+    height:auto;
+  }
+}
 
 
 /* CONTACT */
@@ -271,92 +240,3 @@ padding:10px;
 #footer h4{
   font-size: 17px;
 }
-
-/* @media only screen and (min-device-height: 667px)
-and (min-device-width: 375px)
-
- {
-  #welcome-section{
-    height:200vh;
-  }
-
-}
-
-@media only screen and (min-width:880px){
-  #welcome-section{
-    height: 180vh;
-    padding-top:85px;
-  }
-
-
-}
-@media only screen and (min-width:1001px){
-  #welcome-section{
-    height: 116vh;
-    padding-top:85px;
-  }
-}
-@media only screen and (min-width:1250px){
-  #welcome-section{
-    height: 123vh;
-    padding-top:20px;
-  }
-}
-
-
-
-@media screen and (min-width: 768px)
-and (max-width: 1024px) {
-  #welcome-section{
-    height:130vh;
-  }
-  .profile{
-
-    margin:auto;
-  }
-}
-
-@media only screen
-and (min-width : 375px)
-and (max-width : 667px)
-and (orientation:landscape)
- {
-  #welcome-section{
-    height:225vh;
-  }
-}
-
-@media only screen and (max-width:1000px){
-  #bio h2{
-    text-align: center;
-  position:static;
-  display: block;
-   flex-basis:100%;
-   width:100vw;
-   margin-right:auto;
-   margin-left:auto;
-   margin-top:50px;
-   margin-bottom:0;
-  }
-}
-@media (max-width:575px){
-  .project-tile img{
-    height:auto;
-  }
-}
-@media only screen and (max-width:768px) and (orientation: portrait){
-  #bio{
-    padding-top: 40px;
-    margin:0;
-    max-width: 84vw;
-  }
-
-
-}
-@media only screen and (max-width:1000px) and (orientation:landscape){
-  .profile{
-    width:170px;
-    height:220px;
-    margin:auto;
-    margin-left:80px;
-  } */
