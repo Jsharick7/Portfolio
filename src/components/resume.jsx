@@ -13,7 +13,7 @@ function Resume(){
         <div class="col">
           <div class="collapse multi-collapse" id="multiCollapseExample1">
             <div class="card card-body">
-            <iframe src="Resume_JS.pdf" width="100%" height="500px"></iframe>
+            <iframe src="JS_Portfolio_Resume.pdf" width="100%" height="500px"></iframe>
             </div>
           </div>
         </div>
