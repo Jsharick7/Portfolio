@@ -10,12 +10,12 @@
       "text":"Translate Markdown into rendered HTML."
     },
     {
-      "title":"To-Do List App",
-      "imgStr":"https://i.ibb.co/JtYxxZ3/todolistthumb.png",
-      "link":"https://frozen-anchorage-59073.herokuapp.com/",
-      "alt":"To-Do List",
-      "text":"Synced with the MongoDB Atlas cloud to store and keep track of multiple to-do lists."
-    },
+    "title" :"Wikipedia API App",
+    "imgStr":"https://i.ibb.co/Z8Gqmrx/wikithumb.png",
+    "link":"https://csb-ssy86.netlify.app/",
+    "alt":"Wikipedia API",
+    "text":"Run searches in the Wikipedia database, or retrieve random articles. Dark theme available."
+  },
     {
     "title" :"Weather API App",
     "imgStr":"https://i.ibb.co/Ct4fTz5/weather-Thumb.png",
@@ -45,6 +45,13 @@
     "text":"A drum machine, built using React. Easily customizable with additional banks."
   },
   {
+    "title":"To-Do List App",
+    "imgStr":"https://i.ibb.co/JtYxxZ3/todolistthumb.png",
+    "link":"https://frozen-anchorage-59073.herokuapp.com/",
+    "alt":"To-Do List",
+    "text":"Synced with the MongoDB Atlas cloud to store and keep track of multiple to-do lists."
+  },
+  {
     "title":"Newsletter API",
     "imgStr":"https://i.ibb.co/5RXnMJj/newsletterthumb.png",
     "link":"https://calm-cliffs-76131.herokuapp.com/",
@@ -57,13 +64,6 @@
     "link":"https://codepen.io/jsharick7/full/QWjqLrw",
     "alt":"Sample Documentation Page",
     "text":"Reorganized a functional documentation page of a topic I find most useful."
-  },
-  {
-    "title":"Sample Survey Form",
-    "imgStr":"https://iili.io/J0WsDu.png",
-    "link":"https://codepen.io/jsharick7/full/gOaWpGp",
-    "alt":"Survey Form",
-    "text":"Stylized form using plain HTML and CSS."
   }
 
 ]

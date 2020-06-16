@@ -21,7 +21,7 @@ function App() {
       <section class="jumbotron text-center" id="jtron">
     <div class="container">
       <h1>Project Portfolio</h1>
-      <p class="lead text-muted">Here are some examples of my work. Some are
+      <p class="lead text-muted">Below are some examples of my work. Some are
        simple API calls, and some were created to demonstrate simple responsive
         web design concepts for a curriculum. They employ a variety of tools
         including Bootstrap libraries, EJS templating, React Component architecture, and
