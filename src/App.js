@@ -19,18 +19,18 @@ function App() {
       <Welcome />
 
       <section class="jumbotron text-center" id="jtron">
-    <div class="container">
+    <div class="jumbo-container">
       <h1>Project Portfolio</h1>
-      <p class="lead text-muted">Below are some examples of my work. Some are
-       simple API calls, and some were created to demonstrate simple responsive
-        web design concepts for a curriculum. They employ a variety of tools
-        including Bootstrap libraries, EJS templating, React Component architecture, and
-        core HTML principles.</p>
+      <p class="lead text-muted">Below are some examples of my recent work. Some are
+       simple API calls, and some were created to demonstrate responsive
+        web design concepts. They employ various tools including the React.js framework,
+        EJS view templates on the Node.js runtime environment. I have also included my resume below.
+        </p>
         <Resume />
     </div>
   </section>
-  <div class="album py-5 bg-light" id="projects">
-  <div class="container">
+  <div class="album" id="projects">
+
   <div class="row">
     {projectArray.map((project, idx) => {
               return (
@@ -44,7 +44,7 @@ function App() {
                 text={project.text}
               />)})}
     </div>
-    </div>
+
     </div>
       <Contact />
     </div>

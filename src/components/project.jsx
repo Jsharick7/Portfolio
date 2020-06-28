@@ -4,23 +4,16 @@ import React from "react";
 function Project(props){
   return(
 
-    <div class="col-xs-12 col-sm-6 col-lg-4">
+    <div class="project-tile">
 
-              <div class="card mb-5 ml-2 mr-2 project-tile">
-              <a target="_blank" href={props.link}>
-                <img src={props.imgStr} alt={props.alt} width="100%" height="170px"/>
+        <a target="_blank" href={props.link}>
 
-                <div class="card-body">
-                <p class="card-text text-wrap">{props.text}</p>
-                    <p class="title-text"><span class="code">&lt; </span>{props.title}<span class="code"> /&gt;</span></p>
+            <img src={props.imgStr} alt={props.alt} width="100%" height="170px"/>
+            <p id="ptext" class="text-wrap">{props.text}</p>
+            <p class="title-text"><span class="code">&lt; </span>{props.title}<span class="code"> /&gt;</span></p>
+        </a>
 
-
-                </div>
-
-                </a>
-              </div>
-
-            </div>
+    </div>
   )
 }
 export default Project;
