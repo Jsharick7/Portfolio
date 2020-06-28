@@ -8,7 +8,7 @@ function Welcome(){
 
       <h1>I'm Joe</h1>
       <h2>A Web Developer</h2>
-      
+
       <Bio />
 
     </div>
