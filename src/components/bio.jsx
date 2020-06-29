@@ -46,8 +46,10 @@ export default class Bio extends React.Component{
           <li>HTML/CSS/JavaScript: This group of core technologies is essential for creating responsive websites and applications, leading to a positive user experience.</li>
           <li>JQuery: Adds a layer of dynamic responsiveness to different elements of your applications.</li>
           <li>SQL/MongoDB: Different projects call for different database management schemas, whether more structured and relational, or more dynamic and variable.</li>
+          <li>APIs: Retrieving and using information from remote servers to be used in applications.</li>
           <li>React: A powerful framework with the ability to manage state and efficiently render changes dynamically.</li>
           <li>Node.js/PHP: Both are viable back-end environments. I am partial to Node and its vast library of add-ons available through NPM.</li>
+          <li>Git: A version control environment which allows branched collaboration and ensures a working deployment state.</li>
          </ul>
       </div>
     </div>
