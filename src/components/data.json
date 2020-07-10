@@ -3,18 +3,25 @@
 {
   "projectArray":[
     {
+      "title":"Social Media App",
+      "imgStr":"https://i.ibb.co/8BFV40h/bitterthumb.png",
+      "link":"http://bitter.bitnamiapp.com/index.php",
+      "alt":"Social Media App",
+      "text":"Built with PHP/MySQL. Create an account, make posts, follow and unfollow other users. Built to illustrate various interactions with a database using MySQL."
+    },
+    {
       "title":"Markdown Previewer",
       "imgStr":"https://i.ibb.co/G9PzzdT/markdownthumb.png",
       "link":"https://csb-8p7sw.netlify.app/",
       "alt":"Markdown Previewer",
-      "text":"Translate Markdown into rendered HTML."
+      "text":"A markdown interpreter, built using React's state management. Includes temporary user-defined session saving."
     },
     {
     "title" :"Wikipedia API App",
     "imgStr":"https://i.ibb.co/Z8Gqmrx/wikithumb.png",
     "link":"https://csb-ssy86.netlify.app/",
     "alt":"Wikipedia API",
-    "text":"Run searches in the Wikipedia database, or retrieve random articles. Dark theme available."
+    "text":"Built to illustrate use of different API endpoint interaction. Run searches in the Wikipedia database, or retrieve random articles. Dark theme also available."
   },
     {
     "title" :"Weather API App",
@@ -28,7 +35,7 @@
     "imgStr":"https://iili.io/J1Ankl.png",
     "link":"https://pacific-ocean-63591.herokuapp.com/",
     "alt":"My Blog",
-    "text":"A multi-page site using EJS to create section templates and cross reference elements."
+    "text":"A multi-page site employing Express and EJS to create site consistency with view templates. Implements same concept behind Markdown Previewer in composition to make more creative Blog posts."
   },
   {
     "title":"Random Quote Machine",
@@ -38,18 +45,18 @@
     "text":"A simple React project that calls an API to fetch and display some motivation."
   },
   {
-    "title":"Drum Machine",
-    "imgStr":"https://i.ibb.co/QJ1WQBy/drumthumb.png",
-    "link":"https://csb-2puiv.netlify.app/",
-    "alt":"Drum Machine",
-    "text":"A drum machine, built using React. Easily customizable with additional banks."
-  },
-  {
     "title":"To-Do List App",
     "imgStr":"https://i.ibb.co/JtYxxZ3/todolistthumb.png",
     "link":"https://frozen-anchorage-59073.herokuapp.com/",
     "alt":"To-Do List",
-    "text":"Synced with the MongoDB Atlas cloud to store and keep track of multiple to-do lists."
+    "text":"Another database-interaction application, this one implementing the NoSQL language MongoDB/Mongoose."
+  },
+  {
+    "title":"Drum Machine",
+    "imgStr":"https://i.ibb.co/QJ1WQBy/drumthumb.png",
+    "link":"https://csb-2puiv.netlify.app/",
+    "alt":"Drum Machine",
+    "text":"A drum machine, built using React. Easily scalable with additional banks if desired."
   },
   {
     "title":"Newsletter API",
@@ -57,14 +64,8 @@
     "link":"https://calm-cliffs-76131.herokuapp.com/",
     "alt":"Newsletter API",
     "text":"Uses express routing calls to communicate with my Mail Chimp account."
-  },
-  {
-    "title":"Documentation Page",
-    "imgStr":"https://iili.io/J0WrSS.png",
-    "link":"https://codepen.io/jsharick7/full/QWjqLrw",
-    "alt":"Sample Documentation Page",
-    "text":"Reorganized a functional documentation page of a topic I find most useful."
   }
+
 
 ]
 }
