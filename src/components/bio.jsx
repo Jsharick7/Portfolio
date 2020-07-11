@@ -20,7 +20,7 @@ export default class Bio extends React.Component{
 
         <div class="card-header" id="aboutHeading">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#about" aria-expanded="true" aria-controls="about">
+            <button class="btn btn-dark btn-block text-left" type="button" data-toggle="collapse" data-target="#about" aria-expanded="true" aria-controls="about">
               About
             </button>
           </h2>
@@ -35,7 +35,7 @@ export default class Bio extends React.Component{
 
     <div class="card-header" id="skillsHeading">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills">
+        <button class="btn btn-dark btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills">
           Skills
         </button>
       </h2>
@@ -43,6 +43,7 @@ export default class Bio extends React.Component{
     <div id="skills" class="collapse" aria-labelledby="skillsHeading" data-parent="#bio">
       <div class="card-body">
          <ul>
+         <li><h4>To see the following skills in practice, refer to my <a href="#projects">projects</a> section below.</h4></li>
           <li>HTML/CSS/JavaScript: This group of core technologies is essential for creating responsive websites and applications, leading to a positive user experience.</li>
           <li>JQuery: Adds a layer of dynamic responsiveness to different elements of your applications.</li>
           <li>SQL/MongoDB: Different projects call for different database management schemas, whether more structured and relational, or more dynamic and variable.</li>
@@ -57,7 +58,7 @@ export default class Bio extends React.Component{
 
     <div class="card-header" id="contactHeading">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#contactTop" aria-expanded="false" aria-controls="contactTop">
+        <button class="btn btn-dark btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#contactTop" aria-expanded="false" aria-controls="contactTop">
           Contact
         </button>
       </h2>

@@ -64,6 +64,9 @@ html, body{
   max-width: 600px;
   margin:0 auto;
 }
+#bio .btn-dark{
+  margin-top:10px;
+}
 h1{
   font-size:3em;
   font-family: var(--h-font);
